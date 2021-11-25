@@ -1,0 +1,45 @@
+{
+  "actions": [
+    {
+      "name": "/actions/default/in/InteractUI",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/Squeeze",
+      "type": "vector1"
+    },
+    {
+      "name": "/actions/default/in/Move",
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/default/in/ReturnButton",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/ConfirmButton",
+      "type": "boolean"
+    }
+  ],
+  "action_sets": [
+    {
+      "name": "/actions/default",
+      "usage": "LeftRight"
+    }
+  ],
+  "default_bindings": [
+    {
+      "controller_type": "GSXR_Joystick",
+      "binding_url": "GSXR_Joystick.json"
+    },
+    {
+      "controller_type": "GSXR_Touch",
+      "binding_url": "GSXR_Touch.json"
+    },
+    {
+      "controller_type": "GSXR_Gamepad",
+      "binding_url": "GSXR_Gamepad.json"
+    }
+  ],
+  "localization": []
+}

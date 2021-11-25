@@ -1,0 +1,83 @@
+{
+  "app_key": "",
+  "bindings": {
+    "/actions/default": {
+      "sources": [
+        {
+          "path": "/user/gamepad/input/trigger_left",
+          "mode": "trigger",
+          "inputs": {
+            "click": {
+              "output": "/actions/default/in/InteractUI"
+            }
+          }
+        },
+        {
+          "path": "/user/gamepad/input/trigger_right",
+          "mode": "trigger",
+          "inputs": {
+            "click": {
+              "output": "/actions/default/in/InteractUI"
+            }
+          }
+        },
+        {
+          "path": "/user/gamepad/input/trigger_left",
+          "mode": "trigger",
+          "inputs": {
+            "pull": {
+              "output": "/actions/default/in/Squeeze"
+            }
+          }
+        },
+        {
+          "path": "/user/gamepad/input/trigger_right",
+          "mode": "trigger",
+          "inputs": {
+            "pull": {
+              "output": "/actions/default/in/Squeeze"
+            }
+          }
+        },
+        {
+          "path": "/user/gamepad/input/joystick_left",
+          "mode": "joystick",
+          "inputs": {
+            "position": {
+              "output": "/actions/default/in/Move"
+            }
+          }
+        },
+        {
+          "path": "/user/gamepad/input/joystick_right",
+          "mode": "joystick",
+          "inputs": {
+            "position": {
+              "output": "/actions/default/in/Move"
+            }
+          }
+        },
+        {
+          "path": "/user/gamepad/input/b",
+          "mode": "button",
+          "inputs": {
+            "click": {
+              "output": "/actions/default/in/ReturnButton"
+            }
+          }
+        },
+        {
+          "path": "/user/gamepad/input/a",
+          "mode": "button",
+          "inputs": {
+            "click": {
+              "output": "/actions/default/in/ConfirmButton"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "controller_type": "GSXR_Gamepad",
+  "name": "GSXR_Gamepad"
+}
