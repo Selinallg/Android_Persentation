@@ -1,10 +1,9 @@
 package com.nolovr.core.vrplayer;
 
 
-import android.app.Activity;
 import android.os.Bundle;
 
-public class NioActivity extends Activity {
+public class NioActivity extends UnityPlayerActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
